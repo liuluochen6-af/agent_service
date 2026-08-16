@@ -1,0 +1,19 @@
+name: agent_service_py310
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ipykernel
+  - notebook
+  - pandas
+  - pip:
+      - python-dotenv
+      - langchain
+      - langchain-core
+      - langchain-openai
+      - langchain-google-genai
+      - langgraph
+      - google-genai
+      - playwright
